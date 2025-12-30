@@ -46,16 +46,47 @@ I enjoy designing systems that scale and last, not just shipping features.
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
 
-![Main Screen](assets/mainscreen.png?t=1767083181135)
+![Main Screen](assets/mainscreen.png?t=1767084952246)
 
-> The cat is hungry. Let's feed it with the right bug.
+> The cat favorite food is bug. Choose the buggy code from option below.
 
 
-[![FEED button](assets/action/feed-enabled.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=feed.md)
-![BATH button](assets/action/bath-disabled.png)
-![PET button](assets/action/pet-disabled.png)
 
-    
+### Option 1
+
+```typescript
+export function isEligibleForDiscount(age: number) {
+	if (age < 18 && age > 65) {
+		return true;
+	}
+	return false;
+}
+```
+[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-1.md)
+
+
+### Option 2
+
+```typescript
+export function isNil(value: any) {
+	return value === null || value === undefined;
+}
+```
+[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-2.md)
+
+
+### Option 3
+
+```typescript
+export function findMaxValue(numbers: number[]) {
+	if (numbers.length === 0) {
+		return -Infinity;
+	}
+	return Math.max(...numbers);
+}
+```
+[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-3.md)
+
 
 <details>
 <summary>🏆 Leaderboard & Stats</summary>

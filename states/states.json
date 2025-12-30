@@ -1,11 +1,15 @@
 {
-  "mode": "idle",
-  "phase": "idle",
+  "mode": "feed",
+  "phase": "choosing",
   "catState": "hungry",
-  "lastState": "",
+  "lastState": "hungry",
   "background": "day",
-  "currentOptions": [],
-  "correctOption": null,
+  "currentOptions": [
+    "challenges/feed/bug/discount-eligible.ts",
+    "challenges/feed/not-bug/is-nil.ts",
+    "challenges/feed/not-bug/find-max-value.ts"
+  ],
+  "correctOption": 0,
   "pickedOption": null,
-  "lastUpdated": "2025-12-30T08:26:17.517Z"
+  "lastUpdated": "2025-12-30T08:55:49.181Z"
 }
