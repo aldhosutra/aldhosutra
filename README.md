@@ -46,16 +46,46 @@ I enjoy designing systems that scale and last, not just shipping features.
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
 
-![Main Screen](assets/mainscreen-1767087159880.png)
+![Main Screen](assets/mainscreen-1767087432654.png)
 
-> The cat is hungry. Let's feed it with the right bug.
+> The cat favorite food is bug. Choose the buggy code from option below.
 
 
-[![FEED button](assets/action/feed-enabled.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=feed.md)
-![BATH button](assets/action/bath-disabled.png)
-![PET button](assets/action/pet-disabled.png)
 
-    
+### Option 1
+
+```typescript
+export function findUserId(users: { id: number; name: string }[], name: string): number {
+	const user = users.find(u => u.name === name);
+	if (!user) {
+		return 'Not found';
+	}
+	return user.id;
+}
+```
+[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-1.md)
+
+
+### Option 2
+
+```typescript
+export function paginate(items: any[], pageNumber: number, pageSize: number) {
+	const startIndex = (pageNumber - 1) * pageSize;
+	return items.slice(startIndex, startIndex + pageSize);
+}
+```
+[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-2.md)
+
+
+### Option 3
+
+```typescript
+export function getActiveUsers(users: { name: string; active: boolean }[]) {
+	return users.filter(user => user.active);
+}
+```
+[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-3.md)
+
 
 <details>
 <summary>🏆 Leaderboard & Stats</summary>
