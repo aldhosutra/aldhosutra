@@ -1,0 +1,11 @@
+{
+	"issue": {
+		"number": 1,
+		"user": {
+			"login": "octocat",
+			"id": 1,
+			"html_url": "https://github.com/octocat"
+		},
+		"body": "<!-- action: force-update-daynight -->"
+	}
+}
