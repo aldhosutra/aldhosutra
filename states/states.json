@@ -1,11 +1,11 @@
 {
   "mode": "idle",
   "phase": "idle",
-  "catState": "happy",
+  "catState": "hungry",
   "lastState": "",
   "background": "day",
   "currentOptions": [],
   "correctOption": null,
   "pickedOption": null,
-  "lastUpdated": ""
+  "lastUpdated": "2025-12-30T08:26:17.517Z"
 }

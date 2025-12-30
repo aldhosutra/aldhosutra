@@ -46,13 +46,12 @@ I enjoy designing systems that scale and last, not just shipping features.
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
 
-![Main Screen](assets/mainscreen.png?t=1767075985246)
+![Main Screen](assets/mainscreen.png?t=1767083181135)
 
-> The cat is happy for now. Come back in about 15 minutes when it needs help again.
-[[Don't want to wait?]](https://github.com/REPO_OWNER/REPO_NAME/issues/new?template=force-update-mode.yml)
+> The cat is hungry. Let's feed it with the right bug.
 
 
-![FEED button](assets/action/feed-disabled.png)
+[![FEED button](assets/action/feed-enabled.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=feed.yml)
 ![BATH button](assets/action/bath-disabled.png)
 ![PET button](assets/action/pet-disabled.png)
 
