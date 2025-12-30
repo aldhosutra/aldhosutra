@@ -46,26 +46,16 @@ I enjoy designing systems that scale and last, not just shipping features.
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
 
-![Main Screen](assets/mainscreen-1767087509592.png)
+![Main Screen](assets/mainscreen-1767087977488.png)
 
-> Well done. The cat enjoyed that bug.
-(Reason: This function promises to return a number but can return a string 'Not found' if the user does not exist, which violates the TypeScript type signature.)
-[[Back to Main Menu]](https://github.com/aldhosutra/aldhosutra/issues/new?template=close.md)
+> The cat is hungry. Let's feed it with the right bug.
 
 
+[![FEED button](assets/action/feed-enabled.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=feed.md)
+![BATH button](assets/action/bath-disabled.png)
+![PET button](assets/action/pet-disabled.png)
 
-### Picked Option
-
-```typescript
-export function findUserId(users: { id: number; name: string }[], name: string): number {
-	const user = users.find(u => u.name === name);
-	if (!user) {
-		return 'Not found';
-	}
-	return user.id;
-}
-```
-
+    
 
 <details>
 <summary>🏆 Leaderboard & Stats</summary>

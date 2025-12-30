@@ -1,16 +1,12 @@
 {
   "mode": "feed",
-  "phase": "correct",
+  "phase": "idle",
   "catState": "hungry",
   "lastState": "happy",
   "background": "day",
-  "currentOptions": [
-    "challenges/feed/bug/find-user-id.ts",
-    "challenges/feed/not-bug/paginate.ts",
-    "challenges/feed/not-bug/get-active-user.ts"
-  ],
-  "correctOption": 0,
-  "pickedOption": 0,
-  "lastUpdated": "2025-12-30T09:38:27.590Z",
-  "lastGenerated": 1767087509592
+  "currentOptions": [],
+  "correctOption": null,
+  "pickedOption": null,
+  "lastUpdated": "2025-12-30T09:46:15.021Z",
+  "lastGenerated": 1767087977488
 }
