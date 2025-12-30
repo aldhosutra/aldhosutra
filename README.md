@@ -46,13 +46,15 @@ I enjoy designing systems that scale and last, not just shipping features.
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
 
-![Main Screen](assets/mainscreen-1767087432654.png)
+![Main Screen](assets/mainscreen-1767087509592.png)
 
-> The cat favorite food is bug. Choose the buggy code from option below.
+> Well done. The cat enjoyed that bug.
+(Reason: This function promises to return a number but can return a string 'Not found' if the user does not exist, which violates the TypeScript type signature.)
+[[Back to Main Menu]](https://github.com/aldhosutra/aldhosutra/issues/new?template=close.md)
 
 
 
-### Option 1
+### Picked Option
 
 ```typescript
 export function findUserId(users: { id: number; name: string }[], name: string): number {
@@ -63,41 +65,19 @@ export function findUserId(users: { id: number; name: string }[], name: string):
 	return user.id;
 }
 ```
-[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-1.md)
-
-
-### Option 2
-
-```typescript
-export function paginate(items: any[], pageNumber: number, pageSize: number) {
-	const startIndex = (pageNumber - 1) * pageSize;
-	return items.slice(startIndex, startIndex + pageSize);
-}
-```
-[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-2.md)
-
-
-### Option 3
-
-```typescript
-export function getActiveUsers(users: { name: string; active: boolean }[]) {
-	return users.filter(user => user.active);
-}
-```
-[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-3.md)
 
 
 <details>
 <summary>🏆 Leaderboard & Stats</summary>
 
-![Successful Feeds](https://img.shields.io/badge/successful_feed-1-orange?style=for-the-badge)
+![Successful Feeds](https://img.shields.io/badge/successful_feed-2-orange?style=for-the-badge)
 ![Successful Baths](https://img.shields.io/badge/successful_bath-0-blue?style=for-the-badge)
 ![Successful Pets](https://img.shields.io/badge/successful_pet-0-green?style=for-the-badge)
     
 
 | Rank | User | Score |
 | ---- | ---- | ----- |
-| 1 | [aldhosutra](https://github.com/aldhosutra) | 1 |
+| 1 | [aldhosutra](https://github.com/aldhosutra) | 2 |
 
 </details>
 <!-- EASTER_EGG: Ahhh you found me! By the way, only between us, I love playing silksong! -->
