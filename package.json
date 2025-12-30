@@ -1,0 +1,38 @@
+{
+	"name": "aldhosutra",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"generate-assets": "node --loader ts-node/esm scripts/generate-assets.ts",
+		"generate-readme": "node --loader ts-node/esm scripts/generate-readme.ts",
+		"generate": "npm run generate-readme & npm run generate-assets",
+		"test": "vitest run",
+		"lint": "eslint . --ext .ts",
+		"format": "prettier --write .",
+		"issue:bath": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/bath.json",
+		"issue:close": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/close.json",
+		"issue:feed": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/feed.json",
+		"issue:pet": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/pet.json",
+		"issue:pick-option-1": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/pick-option-1.json",
+		"issue:pick-option-2": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/pick-option-2.json",
+		"issue:pick-option-3": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/pick-option-3.json",
+		"issue:force-update-daynight": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/force-update-daynight.json",
+		"issue:force-update-mode": "node --loader ts-node/esm src/handlers/issue-handler.ts tests/issue/force-update-mode.json",
+		"update:daynight": "node scripts/daynight-update.js",
+		"update:mode": "node scripts/mode-update.js",
+		"reset": "node --loader ts-node/esm scripts/reset.js"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^8.51.0",
+		"eslint": "^8.0.0",
+		"fast-glob": "^3.2.7",
+		"prettier": "^2.8.0",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.0",
+		"vitest": "^4.0.16"
+	},
+	"dependencies": {
+		"@napi-rs/canvas": "^0.1.88"
+	}
+}

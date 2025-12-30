@@ -1,6 +1,3 @@
-
-<!-- GENERATED: do not edit; run npm run generate-readme -->
-
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
 I'm Aldo, Full Stack TypeScript Developer from <img src="https://cdn-icons-png.flaticon.com/512/6157/6157721.png" width="13"/> <b>Jakarta, Indonesia</b>. Even after 6+ years since my first `Hello World`, I feel like the open-source world only gets more exciting. What about you?
@@ -45,29 +42,3 @@ I enjoy designing systems that scale and last, not just shipping features.
 ## 😽 Oh, Before Your Leave
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
-
-![Main Screen](assets/mainscreen.png?t=1767075985246)
-
-> The cat is happy for now. Come back in about 15 minutes when it needs help again.
-[[Don't want to wait?]](https://github.com/REPO_OWNER/REPO_NAME/issues/new?template=force-update-mode.yml)
-
-
-![FEED button](assets/action/feed-disabled.png)
-![BATH button](assets/action/bath-disabled.png)
-![PET button](assets/action/pet-disabled.png)
-
-    
-
-<details>
-<summary>🏆 Leaderboard & Stats</summary>
-
-![Successful Feeds](https://img.shields.io/badge/successful_feed-0-orange?style=for-the-badge)
-![Successful Baths](https://img.shields.io/badge/successful_bath-0-blue?style=for-the-badge)
-![Successful Pets](https://img.shields.io/badge/successful_pet-0-green?style=for-the-badge)
-    
-
-| Rank | User | Score |
-| ---- | ---- | ----- |
-
-</details>
-<!-- EASTER_EGG: Ahhh you found me! By the way, only between us, I love playing silksong! -->

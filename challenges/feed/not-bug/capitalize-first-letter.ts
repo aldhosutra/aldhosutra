@@ -1,0 +1,7 @@
+// REASON: This function correctly capitalizes the first letter of a string and leaves the rest of the string as is.
+export function capitalizeFirstLetter(str: string) {
+	if (!str) {
+		return '';
+	}
+	return str.charAt(0).toUpperCase() + str.slice(1);
+}

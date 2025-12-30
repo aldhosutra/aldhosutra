@@ -1,0 +1,7 @@
+name: Close
+about: Return to idle by clicking the info bar. Just click Submit, no typing needed.
+title: Close
+labels: game-action
+body: |
+  <!-- action: close -->
+  Return to idle state. 👉 Just click **Submit new issue**, no other input required.

@@ -1,0 +1,13 @@
+{
+	"happy": ["Purr… today feels really nice. I’m happy.", "I feel content. Thanks for stopping by.", "Nothing to worry about right now."],
+	"hungry": ["My belly feels empty… I need a bug.", "I think I smell a bug somewhere. I need food.", "I’m starving. Can you help me find the right bug?"],
+	"dirty": ["Oh no… I got myself all messy. I need a warm bath.", "I don’t feel comfortable like this. A warm bath would help.", "A warm bath sounds wonderful right now."],
+	"bored": ["I’ve been lying around too long. I want a clean comb.", "Could you give me some attention? Maybe a clean comb?", "I feel like doing something with you. Do you have a clean comb?"],
+	"sleepy": ["Yawn… I can barely keep my eyes open. That’s enough for today.", "I think it’s sleep time. Let’s do everything tomorrow.", "Let me rest for a bit, okay? Don’t disturb me yet."],
+	"correct-hungry": ["Yes! That’s the bug I wanted!", "Mmm… perfect bug. Thank you.", "You chose the right bug. I’m full now."],
+	"incorrect-hungry": ["Hmm… this bug doesn’t feel right.", "I can’t eat this bug. I’m still hungry.", "Maybe try a different bug?"],
+	"correct-dirty": ["Ahh… so warm and nice.", "I feel much better and warmer now.", "That warmth was exactly what I needed."],
+	"incorrect-dirty": ["Brrr… it’s too cold.", "This cold water didn’t really help.", "I can’t bathe with cold water."],
+	"correct-bored": ["Purr… I really like this clean comb.", "This clean comb made me happy.", "You know how to cheer me up with a clean comb."],
+	"incorrect-bored": ["Eh… this messy comb isn’t really my thing.", "This messy comb doesn’t help.", "Maybe another one? This comb is too messy."]
+}

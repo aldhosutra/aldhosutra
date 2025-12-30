@@ -1,0 +1,16 @@
+{
+	"happy": "The cat is happy for now. Come back in about 15 minutes when it needs help again.",
+	"hungry": "The cat is hungry. Let's feed it with the right bug.",
+	"hungry-choosing": "The cat favorite food is bug. Choose the buggy code from option below.",
+	"hungry-correct": "Well done. The cat enjoyed that bug.",
+	"hungry-incorrect": "That code wasn’t buggy enough. The cat is still hungry.",
+	"dirty": "The cat is dirty and wants a warm bath.",
+	"dirty-choosing": "The cat loves warm water. Pick the warmest code option, which doesn't need any cold start.",
+	"dirty-correct": "Nice code. The cat feels warm, love it.",
+	"dirty-incorrect": "This code is too cold. The cat is freezing.",
+	"bored": "The cat is bored and wants some clean comb petting.",
+	"bored-choosing": "Clean comb time. Choose a clean code that the cat will enjoy.",
+	"bored-correct": "That's super clean. The cat looks happier now.",
+	"bored-incorrect": "That code is messy. The cat is still bored.",
+	"sleepy": "The cat is sleeping now. Come back during the creator’s daytime."
+}
