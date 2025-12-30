@@ -46,13 +46,15 @@ I enjoy designing systems that scale and last, not just shipping features.
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
 
-![Main Screen](assets/mainscreen.png?t=1767084952246)
+![Main Screen](assets/mainscreen.png?t=1767085025150)
 
-> The cat favorite food is bug. Choose the buggy code from option below.
+> Well done. The cat enjoyed that bug.
+(Reason: The logic `age < 18 && age > 65` will never be true, so no one will ever qualify for the discount. It should be `age < 18 || age > 65`.)
+[[Back to Main Menu]](https://github.com/aldhosutra/aldhosutra/issues/new?template=close.md)
 
 
 
-### Option 1
+### Picked Option
 
 ```typescript
 export function isEligibleForDiscount(age: number) {
@@ -62,42 +64,19 @@ export function isEligibleForDiscount(age: number) {
 	return false;
 }
 ```
-[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-1.md)
-
-
-### Option 2
-
-```typescript
-export function isNil(value: any) {
-	return value === null || value === undefined;
-}
-```
-[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-2.md)
-
-
-### Option 3
-
-```typescript
-export function findMaxValue(numbers: number[]) {
-	if (numbers.length === 0) {
-		return -Infinity;
-	}
-	return Math.max(...numbers);
-}
-```
-[![Pick This Button](assets/action//pick.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=pick-option-3.md)
 
 
 <details>
 <summary>🏆 Leaderboard & Stats</summary>
 
-![Successful Feeds](https://img.shields.io/badge/successful_feed-0-orange?style=for-the-badge)
+![Successful Feeds](https://img.shields.io/badge/successful_feed-1-orange?style=for-the-badge)
 ![Successful Baths](https://img.shields.io/badge/successful_bath-0-blue?style=for-the-badge)
 ![Successful Pets](https://img.shields.io/badge/successful_pet-0-green?style=for-the-badge)
     
 
 | Rank | User | Score |
 | ---- | ---- | ----- |
+| 1 | [aldhosutra](https://github.com/aldhosutra) | 1 |
 
 </details>
 <!-- EASTER_EGG: Ahhh you found me! By the way, only between us, I love playing silksong! -->
