@@ -3,7 +3,6 @@ import { execSync } from 'child_process';
 
 function executeGenerate() {
 	try {
-		if (!fs.existsSync('node_modules')) execSync('npm install', { stdio: 'inherit' });
 		execSync('node --loader ts-node/esm scripts/generate-assets.ts', { stdio: 'inherit' });
 		execSync('node --loader ts-node/esm scripts/generate-readme.ts', { stdio: 'inherit' });
 	} catch (e) {
