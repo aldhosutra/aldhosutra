@@ -46,25 +46,17 @@ I enjoy designing systems that scale and last, not just shipping features.
 
 Exploring open source sometimes makes me forget to give extra attention to **Dal-Meow**, my cat. If you’re visiting my GitHub and notice you can play with her below, feel free to jump in, she’d love it. It’s fun, I promise 😆
 
-![Main Screen](assets/mainscreen.png?t=1767085025150)
+![Main Screen](assets/mainscreen.png?t=1767085168230)
 
-> Well done. The cat enjoyed that bug.
-(Reason: The logic `age < 18 && age > 65` will never be true, so no one will ever qualify for the discount. It should be `age < 18 || age > 65`.)
-[[Back to Main Menu]](https://github.com/aldhosutra/aldhosutra/issues/new?template=close.md)
-
+> The cat is happy for now. Come back in about 15 minutes when it needs help again.
+[[Don't want to wait?]](https://github.com/aldhosutra/aldhosutra/issues/new?template=force-update-mode.md)
 
 
-### Picked Option
+![FEED button](assets/action/feed-disabled.png)
+![BATH button](assets/action/bath-disabled.png)
+![PET button](assets/action/pet-disabled.png)
 
-```typescript
-export function isEligibleForDiscount(age: number) {
-	if (age < 18 && age > 65) {
-		return true;
-	}
-	return false;
-}
-```
-
+    
 
 <details>
 <summary>🏆 Leaderboard & Stats</summary>
