@@ -8,6 +8,7 @@ export type GameState = {
 	correctOption: number | null;
 	pickedOption: number | null;
 	lastUpdated: string;
+	lastGenerated: number;
 };
 
 export type GithubEvent = {

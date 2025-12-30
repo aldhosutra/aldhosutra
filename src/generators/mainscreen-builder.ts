@@ -105,6 +105,16 @@ export async function buildMainScreen(stateFile = 'states/states.json', catDialo
 	lines.forEach((line, i) => ctx.fillText(line.trim(), bubbleX + padding, bubbleY + padding + i * fontSize * 1.4));
 
 	// Output
-	fs.writeFileSync('assets/mainscreen.png', canvas.toBuffer('image/png'));
+	const timestamp = new Date().getTime();
+	if (fs.existsSync(`assets/mainscreen-${state.lastGenerated}.png`)) {
+		fs.rmSync(`assets/mainscreen-${state.lastGenerated}.png`);
+	}
+	if (fs.existsSync(`assets/mainscreen.png`)) {
+		fs.rmSync(`assets/mainscreen.png`);
+	}
+	state.lastGenerated = timestamp;
+	fs.writeFileSync(stateFile, JSON.stringify(state, null, 2));
+
+	fs.writeFileSync(`assets/mainscreen-${timestamp}.png`, canvas.toBuffer('image/png'));
 	console.log('✅ PNG generated with dynamic bubble text');
 }
