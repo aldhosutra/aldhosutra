@@ -51,7 +51,7 @@ Exploring open source sometimes makes me forget to give extra attention to **Dal
 > The cat is hungry. Let's feed it with the right bug.
 
 
-[![FEED button](assets/action/feed-enabled.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=feed.yml)
+[![FEED button](assets/action/feed-enabled.png)](https://github.com/aldhosutra/aldhosutra/issues/new?template=feed.md)
 ![BATH button](assets/action/bath-disabled.png)
 ![PET button](assets/action/pet-disabled.png)
 
