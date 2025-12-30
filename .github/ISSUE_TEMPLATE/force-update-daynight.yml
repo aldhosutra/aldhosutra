@@ -1,7 +1,10 @@
 name: Force update the day/night
-about: Tired of waiting? You can force the day/night update. Just click Submit, no typing needed.
+description: Tired of waiting? You can force the day/night update. Just click Submit, no typing needed.
 title: Force update the day/night
-labels: state-update
-body: |
-  <!-- action: force-update-daynight -->
-  Looks like the day/night cycle is updating, let's apply it now. 👉 Just click **Submit new issue**, no other input required.
+labels: ['game-action']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- action: force-update-daynight -->
+        Looks like the day/night cycle is updating, let's apply it now. 👉 Just click **Submit new issue**, no other input required.

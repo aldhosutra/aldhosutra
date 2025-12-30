@@ -1,7 +1,10 @@
 name: Pick option 3
-about: Confirm picking option 3. Just click Submit, no typing needed.
+description: Confirm picking option 3. Just click Submit, no typing needed.
 title: Pick option 3
-labels: game-action
-body: |
-  <!-- action: pick-option-3 -->
-  I confirm I choose Option 3. 👉 Just click **Submit new issue**, no other input required.
+labels: ['game-action']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- action: pick-option-3 -->
+        I confirm I choose Option 3. 👉 Just click **Submit new issue**, no other input required.
