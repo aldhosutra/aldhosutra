@@ -1,7 +1,10 @@
 name: Give a bath
-about: Start a bath challenge. Just click Submit, no typing needed.
+description: Start a bath challenge. Just click Submit, no typing needed.
 title: Bath the cat
-labels: game-action
-body: |
-  <!-- action: bath -->
-  I'm starting the bath challenge. 👉 Just click **Submit new issue**, no other input required.
+labels: ['game-action']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- action: bath -->
+        I'm starting the bath challenge. 👉 Just click **Submit new issue**, no other input required.
