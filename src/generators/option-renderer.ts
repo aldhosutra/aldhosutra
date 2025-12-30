@@ -26,7 +26,7 @@ export function renderOptions(statesPath = 'states/states.json') {
 ${codeBlock}typescript
 ${content}
 ${codeBlock}
-[![Pick This Button](assets/action//pick.png)](https://github.com/${repo}/issues/new?template=pick-option-${i + 1}.yml)
+[![Pick This Button](assets/action//pick.png)](https://github.com/${repo}/issues/new?template=pick-option-${i + 1}.md)
 
 `;
 		}
