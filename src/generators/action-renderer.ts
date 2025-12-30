@@ -11,7 +11,7 @@ function getActionMode(state: GameState, catState: string) {
 function getActionButton(state: GameState, catState: string, action: string) {
 	const mode = getActionMode(state, catState);
 	if (mode === 'enabled' && state.background === 'day') {
-		return `[![${action.toUpperCase()} button](assets/action/${action}-enabled.png)](https://github.com/${repo}/issues/new?template=${action}.yml)`;
+		return `[![${action.toUpperCase()} button](assets/action/${action}-enabled.png)](https://github.com/${repo}/issues/new?template=${action}.md)`;
 	}
 	return `![${action.toUpperCase()} button](assets/action/${action}-disabled.png)`;
 }

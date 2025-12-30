@@ -25,11 +25,11 @@ export function pickInfoBar(stateFile = 'states/states.json', infoDialoguePath =
 			}
 
 			if (state.phase !== 'idle' && state.phase !== 'choosing') {
-				infoDialogue += `\n[[Back to Main Menu]](https://github.com/${repo}/issues/new?template=close.yml)`;
+				infoDialogue += `\n[[Back to Main Menu]](https://github.com/${repo}/issues/new?template=close.md)`;
 			}
 
 			if (state.phase === 'idle' && state.catState === 'happy') {
-				infoDialogue += `\n[[Don't want to wait?]](https://github.com/${repo}/issues/new?template=force-update-mode.yml)`;
+				infoDialogue += `\n[[Don't want to wait?]](https://github.com/${repo}/issues/new?template=force-update-mode.md)`;
 			}
 		} else {
 			const arr = dlg['sleepy'];
