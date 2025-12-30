@@ -1,0 +1,10 @@
+---
+name: Pick option 2
+about: Confirm picking option 2. Just click Submit, no typing needed.
+title: Pick option 2
+labels: game-action
+---
+
+<!-- action: pick-option-2 -->
+
+I confirm I choose Option 2. 👉 Just click **Submit new issue**, no other input required.

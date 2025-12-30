@@ -1,0 +1,10 @@
+---
+name: Force update the day/night
+about: Tired of waiting? You can force the day/night update. Just click Submit, no typing needed.
+title: Force update the day/night
+labels: state-update
+---
+
+<!-- action: force-update-daynight -->
+
+Looks like the day/night cycle is updating, let's apply it now. 👉 Just click **Submit new issue**, no other input required.

@@ -1,0 +1,10 @@
+---
+name: Pet the cat
+about: Start a petting challenge. Just click Submit, no typing needed.
+title: Pet the cat
+labels: game-action
+---
+
+<!-- action: pet -->
+
+I'm starting the pet challenge. 👉 Just click **Submit new issue**, no other input required.
