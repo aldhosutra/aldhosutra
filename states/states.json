@@ -3,10 +3,10 @@
   "phase": "idle",
   "catState": "hungry",
   "lastState": "happy",
-  "background": "day",
+  "background": "night",
   "currentOptions": [],
   "correctOption": null,
   "pickedOption": null,
-  "lastUpdated": "2026-04-14T02:42:24.222Z",
-  "lastGenerated": 1776134547142
+  "lastUpdated": "2026-04-14T13:44:10.114Z",
+  "lastGenerated": 1776174252141
 }
